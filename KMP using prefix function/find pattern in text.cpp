@@ -49,12 +49,12 @@ void KMPSearch(string text, string pattern) {
 }
 
 int main() {
-    string text = "aaaabaaaaabbbaaaab";
-    string pattern = "aaab";
+    string text;
+    string pattern;
+    cin >> pattern >> text;
     KMPSearch(text, pattern);
 
     for (const auto &item: occurrence) {
-        cout << "Pattern found at index: " << item << endl;
+        cout << item << " ";
     }
 }
- 
