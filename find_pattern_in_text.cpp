@@ -1,4 +1,3 @@
-find_pattern_in_text.cpp
 // https://contest.yandex.ru/contest/38500/run-report/68934903/
 
 #include<iostream>
